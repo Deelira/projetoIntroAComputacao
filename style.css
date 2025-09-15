@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Anek Telugu", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30;
+    font-style: normal;
+    font-size: 70px;
+    padding: 2rem 0 0 0;
+}
+
+h2 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+header {
+    background-color: #003399;
+    color: #FFFF00;
+    text-align: center;
+}
+
+
+.destaques {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem;
+    line-height: 1.5rem;
+    margin-right: 0.8rem;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 1rem;
+    color: #fefefe;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+nav {
+    text-align: right;
+    font-family: "Anek Telugu", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    background-color: #006f29;
+    padding: 0.5rem;
+}
+
+hr {
+    margin: 2rem;
+    border-radius: 20px;
+    height: 2px;
+    background-color: #cecece;
+    border-color: #cecece;
+}
+
+.artigos {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.artigo {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    line-height: 1.5rem;
+    flex-wrap: wrap;
+    margin: 0rem 1rem 2rem 1rem;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #003399;
+    color: #cecece;
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+span {
+    color: #FFFF00;
+    font-size: 20px
+}
+
+.audio {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&display=swap');
