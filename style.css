@@ -175,8 +175,9 @@ html {
     }
 
     .logo {
-        width: 10rem;
-        margin: auto;
+        width: 14rem;
+        margin-left: 8vh;
+        margin-bottom: 6vw;
     }
 
     .destaques {
@@ -190,5 +191,20 @@ html {
 
     .artigo1, .artigo2 {
         width: 80%;
+    }
+
+    .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    }
+
+    a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 1rem;
+    color: #fefefe;
+    font-size: 11px;
     }
 }
