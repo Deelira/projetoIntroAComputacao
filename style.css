@@ -10,23 +10,18 @@ body {
 }
 
 h1 {
-    font-family: "Anek Telugu", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 30;
-    font-style: normal;
-    font-size: 70px;
-    padding: 2rem 0 0 0;
+    font-size: 30px;
+    padding: 2rem;
+    text-align: center;
 }
 
 h2 {
-    margin-top: 2rem;
     text-align: center;
     font-size: 30px;
+    padding: 2rem;
 }
 
 h3 {
-    margin-top: 1rem;
-    padding: 1rem;
     text-align: center;
 }
 
@@ -36,6 +31,17 @@ header {
     text-align: center;
 }
 
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.logo {
+    width: 15rem;
+    float: left;
+}
 
 .destaques {
     display: grid;
@@ -43,10 +49,16 @@ header {
     gap: 2rem;
     padding: 1rem;
     line-height: 1.5rem;
-    margin-right: 0.8rem;
-    
+    color: #003399;
 }
 
+#destaques {
+    color: #003399;
+}
+
+#artigos {
+    color: #ffffff;
+}
 
 a {
     text-decoration: none;
@@ -64,12 +76,10 @@ nav {
     font-family: "Anek Telugu", sans-serif;
     font-optical-sizing: auto;
     font-size: 15px;
-    background-color: #006f29;
     padding: 0.5rem;
 }
 
 hr {
-    margin: 2rem;
     border-radius: 20px;
     height: 2px;
     background-color: #cecece;
@@ -79,17 +89,30 @@ hr {
 .artigos {
     display: flex;
     justify-content: space-evenly;
-    
+    color: #ffffff;
 }
 
-.artigo {
+.artigo1 {
     text-align: center;
-    width: 50%;
-    height: 50%;
     line-height: 1.5rem;
     flex-wrap: wrap;
     margin: 0rem 1rem 2rem 1rem;
     padding: 1rem;
+    background-color: #001b50;
+    border-radius: 20px;
+    width: 70rem;
+}
+
+.artigo2 {
+    text-align: center;
+
+    line-height: 1.5rem;
+    flex-wrap: wrap;
+    margin: 0rem 1rem 2rem 1rem;
+    padding: 1rem;
+    background-color: #001b50;
+    border-radius: 20px;
+    width: 70rem;
 }
 
 footer {
@@ -110,6 +133,41 @@ span {
     padding: 1rem;
 }
 
+.primeiroConteudo {
+    background-color: #FFFF00;
+    margin: 0;
+    padding: 0;
+}
+.segundoConteudo {
+    background-color: #003399;
+    margin: 0;
+    padding: 0;
+}
 
+.terceiroConteudo {
+    background-color: #e7e700;
+    margin: 0;
+    padding: 0;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+.oCarroDoAno {
+    background-color: #e7e700;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.maisEconomico {
+    background-color: #e7e700;
+    border-radius: 20px;
+    padding: 2rem; 
+}
+
+.inovacaoDoAno {
+    background-color: #e7e700;
+    border-radius: 20px;
+    padding: 2rem;
+}
