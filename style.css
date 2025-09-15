@@ -116,7 +116,7 @@ hr {
 }
 
 footer {
-    background-color: #003399;
+    background-color: #004810;
     color: #cecece;
     text-align: center;
     padding: 1rem;
@@ -130,7 +130,7 @@ span {
 
 .audio {
     text-align: center;
-    padding: 1rem;
+    padding-bottom: 2rem;
 }
 
 .primeiroConteudo {
@@ -148,6 +148,7 @@ span {
     background-color: #e7e700;
     margin: 0;
     padding: 0;
+    color: #003399;
 }
 
 html {
