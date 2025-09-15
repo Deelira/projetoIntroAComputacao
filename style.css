@@ -9,17 +9,12 @@ body {
     height: 100vh;
 }
 
-h1 {
+h1, h2 {
     font-size: 30px;
     padding: 2rem;
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-    font-size: 30px;
-    padding: 2rem;
-}
 
 h3 {
     text-align: center;
@@ -89,6 +84,7 @@ hr {
 .artigos {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     color: #ffffff;
 }
 
@@ -105,7 +101,6 @@ hr {
 
 .artigo2 {
     text-align: center;
-
     line-height: 1.5rem;
     flex-wrap: wrap;
     margin: 0rem 1rem 2rem 1rem;
@@ -171,4 +166,29 @@ html {
     background-color: #e7e700;
     border-radius: 20px;
     padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 24px;
+        padding: 1rem;
+    }
+
+    .logo {
+        width: 10rem;
+        margin: auto;
+    }
+
+    .destaques {
+        grid-template-columns: 1fr;
+    }
+
+    .artigos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .artigo1, .artigo2 {
+        width: 80%;
+    }
 }
